@@ -10,5 +10,4 @@ eureka:
     service-url:
       default-zone :  http://localhost:8761/eureka/
   instance:
-    prefer-ip-address: false
-    hostname: ribbon
+    prefer-ip-address: true

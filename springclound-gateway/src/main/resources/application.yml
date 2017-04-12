@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: gateway
+
+server:
+  port: 8050
+
+eureka:
+  instance:
+    hostname: gateway
+  client:
+    service-url:
+      default-zone :  http://localhost:8761/eureka/
+zuul:
+  routes:
+    user1:
+      path: /user1/**
+      serviceId: springclound-eureka-provider
+    user2:
+      path: /user2/**
+      url: http://localhost:8050/springclound-eureka-consumer/ribbon
+      #url: forward:/springclound-eureka-consumer/ribbon
+
