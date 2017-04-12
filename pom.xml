@@ -19,6 +19,8 @@
         <module>springclound-provider</module>
         <module>springclound-consumer</module>
         <module>springclound-eureka</module>
+        <module>springclound-dashboard</module>
+        <module>springclound-gateway</module>
     </modules>
 
     <dependencyManagement>
@@ -32,6 +34,15 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.31</version>
+        </dependency>
+    </dependencies>
 
 
     <!-- Package as an executable jar -->

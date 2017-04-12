@@ -1,5 +1,6 @@
 package com.zgf.springclound.provider;
 
+import com.alibaba.fastjson.JSON;
 import com.zgf.springclound.provider.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
@@ -22,7 +23,7 @@ public class UserController {
         user.setId(id);
         user.setAge(20);
         user.setName("JACK");
-        System.out.println(user);
+        System.out.println("findById " + JSON.toJSONString(user));
         return user;
     }
 
