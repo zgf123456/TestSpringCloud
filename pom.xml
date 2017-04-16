@@ -21,6 +21,7 @@
         <module>springclound-eureka</module>
         <module>springclound-dashboard</module>
         <module>springclound-gateway</module>
+        <module>springclound-stream</module>
     </modules>
 
     <dependencyManagement>
