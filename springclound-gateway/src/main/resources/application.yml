@@ -10,7 +10,7 @@ eureka:
     hostname: gateway
   client:
     service-url:
-      default-zone :  http://localhost:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 zuul:
   routes:
     user1:
