@@ -2,8 +2,13 @@ server:
   port: 8761
 
 eureka:
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 1000
   instance:
     hostname: localhost
+    lease-expiration-duration-in-seconds: 2
+    lease-renewal-interval-in-seconds: 1
   client:
     register-with-eureka: false
     fetch-registry: false
