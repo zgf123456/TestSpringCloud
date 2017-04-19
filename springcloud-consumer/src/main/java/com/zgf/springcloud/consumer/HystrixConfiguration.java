@@ -1,4 +1,4 @@
-package com.zgf.springclound.consumer;
+package com.zgf.springcloud.consumer;
 
 import com.netflix.config.ConfigurationManager;
 import com.netflix.hystrix.contrib.javanica.aop.aspectj.HystrixCommandAspect;

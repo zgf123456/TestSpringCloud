@@ -1,4 +1,4 @@
-package com.zgf.springclound.gateway;
+package com.zgf.springcloud.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;

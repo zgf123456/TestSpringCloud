@@ -1,4 +1,4 @@
-package com.zgf.springclound.consumer.model;
+package com.zgf.springcloud.consumer.model;
 
 /**
  * Created by zgf on 17/4/9.

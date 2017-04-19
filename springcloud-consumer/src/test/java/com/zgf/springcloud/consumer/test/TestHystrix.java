@@ -1,4 +1,4 @@
-package com.zgf.springclound.consumer.test;
+package com.zgf.springcloud.consumer.test;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.http.HttpResponse;

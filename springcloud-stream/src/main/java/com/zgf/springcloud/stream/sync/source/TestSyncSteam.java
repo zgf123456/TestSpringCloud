@@ -1,4 +1,4 @@
-package com.zgf.springclound.stream.sync.source;
+package com.zgf.springcloud.stream.sync.source;
 
 import com.alibaba.fastjson.JSON;
 import org.slf4j.Logger;

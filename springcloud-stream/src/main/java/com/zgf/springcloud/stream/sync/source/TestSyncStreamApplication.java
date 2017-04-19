@@ -1,4 +1,4 @@
-package com.zgf.springclound.stream.sync.source;
+package com.zgf.springcloud.stream.sync.source;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

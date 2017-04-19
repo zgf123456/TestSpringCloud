@@ -1,4 +1,4 @@
-package com.zgf.springclound.dashboard;
+package com.zgf.springcloud.dashboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;

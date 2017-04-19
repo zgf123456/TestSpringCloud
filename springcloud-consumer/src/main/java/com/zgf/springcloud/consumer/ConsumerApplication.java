@@ -1,4 +1,4 @@
-package com.zgf.springclound.consumer;
+package com.zgf.springcloud.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

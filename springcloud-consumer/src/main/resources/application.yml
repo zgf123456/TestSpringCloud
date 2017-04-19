@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: springclound-eureka-consumer
+    name: springcloud-eureka-consumer
 
 eureka:
   client:
