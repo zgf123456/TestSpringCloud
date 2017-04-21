@@ -23,6 +23,7 @@
         <module>springcloud-gateway</module>
         <module>springcloud-stream</module>
         <module>springcloud-bus</module>
+        <module>springcloud-config-repo</module>
     </modules>
 
     <dependencyManagement>
